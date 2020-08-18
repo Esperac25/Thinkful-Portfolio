@@ -1,0 +1,156 @@
+
+/* General Styles */
+
+body {
+  margin: 0;
+  background-color: #59D2FE;
+}
+
+header {
+  background-color: #5C7AFF;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  color: #73FBD3;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+.p {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  color: #73FBD3;
+  text-align: center;
+}
+
+/* Groups */
+
+main {
+  padding: 20px 0;
+}
+
+article {
+  margin-top: -30px;
+  margin-bottom: 80px;
+  border-bottom-style: dotted;
+  border-bottom-color: #73FBD3;
+  border-bottom-width: 6px;
+  padding-bottom: 30px;
+ 
+}
+
+
+footer {
+  background-color: #5C7AFF;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+/*  Typography */
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #58478a;
+  font-size: 28px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: #58478a;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #58478a;
+  color: #58478a;
+  font-size: 26px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+p {
+ text-align: center;
+ color: #58478a;
+ font-family: "Pacifico", cursive;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+ul li {
+  margin-left: 200px;
+  color: #58478a;
+  font-family: "Pacifico", cursive;
+}
+ol li {
+  margin-left: 200px;
+  color: #58478a;
+  font-family: "Pacifico", cursive;
+}
+main a { 
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+main  a:link { color: #58478a; }
+main  a:visited { color: #58478a; }
+main  a:hover {color: #58478a; }
+a:active { color: #58478a; }
+
+
+a:hover {
+	text-decoration: underline;	
+}
+
+footer p {
+  color: #73FBD3;
+  text-align: center;
+  padding: 20px;
+}
+
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 50%;
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+iframe {
+  margin-left: 75px;
+}
+
+.align {
+  flex: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
